@@ -1,0 +1,14 @@
+extends base.pug
+
+block style
+    style
+        include ../static/css/contact.css
+
+block content
+    section#contact
+        h1 Contact Us
+        form(action="/contact" method="POST")
+            input(type="text", name="name", placeholder="Your Name" required)
+            textarea(name="message", cols="30", rows="8", placeholder="Type your message here..." required)
+            button Submit
+        p#reply= reply

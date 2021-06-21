@@ -1,0 +1,44 @@
+
+body{
+    background-color: black;
+}
+/*Welcome Area*/
+#welcome{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#welcome-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welcome-img img{
+    opacity: 0.15;
+}
+#welcome-head{
+    position: absolute;
+    text-align: center;
+    padding: 0 10%;
+}
+.head{
+    font-size: 3.5em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: rgb(255, 237, 133);
+    text-transform: uppercase;
+}
+.head-desc{
+    font-size: 25px;
+    max-width: 900px;
+    margin-top: 30px;
+    color: white;
+}

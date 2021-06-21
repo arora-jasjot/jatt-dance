@@ -1,0 +1,13 @@
+extends base.pug
+
+block style
+    style
+        include ../static/css/home.css
+
+block content
+    section#welcome
+        div#welcome-img
+            img(src="../static/images/welcome.jpeg", alt="Welcome")
+        div#welcome-head
+            p.head Jatt Dance Academy 
+            p.head-desc Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu erat tortor. Morbi aliquam mauris non maximus dapibus.
