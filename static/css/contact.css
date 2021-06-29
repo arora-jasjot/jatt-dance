@@ -1,18 +1,22 @@
-body{
+body {
     background-color: rgba(192, 255, 173, 0.596);
 }
-#contact{
+
+#contact {
     text-align: center;
     padding-top: 70px;
 }
-h1{
+
+h1 {
     font-size: 2em;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 30px;
 }
-input, textarea{
+
+input,
+textarea {
     display: block;
     margin: 5px auto;
     width: 90%;
@@ -21,7 +25,8 @@ input, textarea{
     padding: 5px 10px;
     background-color: rgb(223, 223, 223);
 }
-button{
+
+button {
     width: 90%;
     max-width: 120px;
     padding: 10px;
@@ -32,13 +37,22 @@ button{
     transition: all 0.5s;
     margin-top: 7px;
 }
-button:hover{
+
+button:hover {
     transform: translateY(-3px);
     cursor: pointer;
 }
-p{
+
+p {
     margin-top: 20px;
     font-size: 1.5em;
-    color: green;
     font-weight: 600;
+}
+
+#reply {
+    color: green;
+}
+
+#error {
+    color: red;
 }
